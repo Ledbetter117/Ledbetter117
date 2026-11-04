@@ -4,15 +4,15 @@
   "reviewed_at": "2026-11-03",
   "guard_version": "PRG-r2",
   "reviewers": [
-    "Codex producer and a separate Codex review context; same model family, not independent human certification"
+    "Codex lead substantive review with separate Codex producer and engineering review contexts; same model family, not a blinded human or clinical board."
   ],
-  "review_scope": "Exact public source, claims, changed execution paths, supported documents, synthetic failure controls and recorded public GitHub surfaces.",
+  "review_scope": "Completed synthetic/model-reference edition, exact new data/code/documents, public claims and execution paths; inherited security limits remain explicit.",
   "limitations": [
-    "No guarantee of security or protection from criticism.",
-    "Original empirical study endpoints remain unfinished; simulated and human evidence are distinct.",
-    "History scanning requires diagnostic-error checks, complete fetched refs and narrow expiring synthetic-value exceptions. Scanner results do not prove the absence of sensitive information.",
-    "Old tags remain historical and may contain defects repaired in current source.",
-    "Platform settings and external surfaces have separate dated private evidence; this JSON is not a platform-attestation signature."
+    "Simulation only; no human study, clinical ratification, staffing safety or labor saving was measured.",
+    "Model failures and invalid observations are retained; no inference of general model competence.",
+    "Constructed reference and detector were AI-assisted; separate implementations and independent code review are not independent human truth.",
+    "Security scanning is bounded evidence, not a zero-risk guarantee. Historical tags and prior scoped security findings remain preserved.",
+    "The original human-study endpoints are future work outside the founder-authorized simulation edition."
   ],
   "integrity_manifests": [],
   "font_source_reviews": {},
@@ -20,7 +20,7 @@
     ".github/dependabot.yml": "efe35b04741cc513b7fecc935d603508aff876b23c82979b0a3300f299c3ea37",
     ".github/workflows/public-release-guard.yml": "94bb6025416539fa9ae2fc377382fdd05a63ffe2cb4305bdeb1476f6114d76da",
     "PUBLIC-RELEASE-POLICY.md": "0db1944376b50dd993c6a72584123ac09bf120f638b71b7315a10485d6847bfe",
-    "README.md": "365d3c7952a5fe843676ba693f270ab92d456bc52c2fd6b0a4e433a4f20ebb09",
+    "README.md": "d305e79df98ebe9b85dbd3cdda5c19fdd5aa76621670e7a1009fd2fcb4ab1ddb",
     "SECURITY.md": "2aa4ceef03cfaabe31b22689926e4923202dfbf492955313c74370cb1d923105",
     "requirements-guard.txt": "2db6ea2d51e5271dca4b8e361b4e348ca9fc29e7ea31f7c645686e04d5109ade",
     "tools/gitleaks.toml": "7c92822065b1b9498d695a4f8e94dc69b6d312fef0d78301c41feceb63a8311c",
@@ -28,5 +28,9 @@
     "tools/scan_secret_history.py": "7a023cf28e0ded97c8b83775fb773f995a21c77fa31b2609eb4940eb9fe4bd79",
     "tools/test_public_release_guard.py": "ebf42c98fbbad11a9769849a35bb489bc540bf9ddb388806909d1513172755d2",
     "tools/test_scan_secret_history.py": "145f76faa92e5b450380d8698d45fa7def6f67decda5949d8b481cfa0e671ea5"
+  },
+  "substantive_review": {
+    "report_sha256": "4af1e2c59d4505921b98d7403ec3a260cfec602cc2673966138c2d165e4bb266",
+    "arrangement": "Disclosed functional Colour review; Black last, separate engineering checks, same model family."
   }
 }
